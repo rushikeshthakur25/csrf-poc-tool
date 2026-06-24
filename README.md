@@ -91,8 +91,3 @@ Cybersecurity Analyst | Penetration Tester | Security Researcher
 
 LinkedIn:
 https://www.linkedin.com/in/rushikeshthakur25/
-
-
-cd csrf-poc-tool
-
-pip install -r requirements.txt
