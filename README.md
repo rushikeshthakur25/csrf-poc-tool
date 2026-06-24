@@ -1,76 +1,98 @@
-# CSRF PoC Generator
+# 🛡️ CSRF PoC Tool
 
-## Overview
+A cybersecurity testing utility designed to help penetration testers and security researchers generate Cross-Site Request Forgery (CSRF) proof-of-concept payloads during authorized web application security assessments.
 
-The CSRF PoC Generator is a tool designed to validate and parse Burp Suite requests, ensuring correct formatting, and automatically generate Cross-Site Request Forgery (CSRF) Proof-of-Concept (PoC) forms. This tool is aimed at helping security researchers and developers identify and mitigate CSRF vulnerabilities in web applications.
+## 🎯 Purpose
 
-## Features
+CSRF vulnerabilities occur when applications fail to properly validate user requests, allowing attackers to perform unwanted actions on behalf of authenticated users.
 
-- **Request Validation:** Validates Burp Suite requests to ensure they are correctly formatted.
-- **Request Parsing:** Parses request data to extract necessary information.
-- **PoC Generation:** Automatically generates CSRF PoC forms based on the parsed request data.
-- **Error Handling:** Displays error messages for incorrect or malformed inputs.
+This tool helps security professionals:
 
-## Usage
+- Create CSRF PoC templates
+- Understand request manipulation
+- Test CSRF protections
+- Assist during authorized VAPT engagements
 
-1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/yourusername/csrf-poc-generator.git
-    cd csrf-poc-generator
-    ```
+## 🚀 Features
 
-2. **Install dependencies:**
-    ```sh
-    npm install
-    ```
+✅ CSRF PoC generation  
+✅ Custom HTML form generation  
+✅ HTTP request analysis  
+✅ Security testing workflow support  
+✅ Lightweight command-line usage  
 
-3. **Start the development server:**
-    ```sh
-    npm run dev
-    ```
+## 🛠️ Technology
 
-4. **Access the application:**
-    Open your browser and navigate to `http://localhost:3000`.
+- Python
+- HTML
+- HTTP Requests
 
-5. **Generate PoC:**
-    - Paste your Burp Suite request into the textarea.
-    - Click "Generate PoC".
-    - The generated PoC form will be displayed if the request is valid.
-    - Copy the generated PoC and use it to test CSRF vulnerabilities.
+## 📂 Installation
 
-## Example Burp Suite Request
+bash
+git clone https://github.com/rushikeshthakur25/csrf-poc-tool.git
 
-```plaintext
-POST /login HTTP/1.1
-Host: example.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate, br
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 45
-Origin: https://example.com
-Connection: keep-alive
-Referer: https://example.com/login
-Cookie: sessionid=abcd1234
-Upgrade-Insecure-Requests: 1
+# 🛡️ CSRF PoC Tool
 
-username=testuser&password=testpassword
-```
+A cybersecurity testing utility designed to help penetration testers and security researchers generate Cross-Site Request Forgery (CSRF) proof-of-concept payloads during authorized web application security assessments.
 
-## Notes
+## 🎯 Purpose
 
-- This tool does not host but future versions will be open-source for public access.
-- Ensure you have permission to test the endpoints you are targeting.
+CSRF vulnerabilities occur when applications fail to properly validate user requests, allowing attackers to perform unwanted actions on behalf of authenticated users.
 
-## Contributing
+This tool helps security professionals:
 
-Contributions are welcome! Please open an issue or submit a pull request with your improvements.
+- Create CSRF PoC templates
+- Understand request manipulation
+- Test CSRF protections
+- Assist during authorized VAPT engagements
 
-## License
+## 🚀 Features
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+✅ CSRF PoC generation  
+✅ Custom HTML form generation  
+✅ HTTP request analysis  
+✅ Security testing workflow support  
+✅ Lightweight command-line usage  
 
----
+## 🛠️ Technology
 
-Feel free to adjust any sections as needed.
+- Python
+- HTML
+- HTTP Requests
+
+## 📂 Installation
+
+bash
+git clone https://github.com/rushikeshthakur25/csrf-poc-tool.git
+
+cd csrf-poc-tool
+
+pip install -r requirements.txt
+
+
+🔐 Security Concepts
+OWASP Top 10
+Cross-Site Request Forgery
+Web Application Security
+Request Validation
+Secure Coding Practices
+⚠️ Disclaimer
+
+This tool is created for educational purposes and authorized security testing only.
+
+Do not test systems without permission.
+
+👨‍💻 Author
+
+Rushikesh Thakur
+
+Cybersecurity Analyst | Penetration Tester | Security Researcher
+
+LinkedIn:
+https://www.linkedin.com/in/rushikeshthakur25/
+
+
+cd csrf-poc-tool
+
+pip install -r requirements.txt
